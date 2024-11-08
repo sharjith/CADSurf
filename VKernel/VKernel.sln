@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VKGeom", "VKGeom\VKGeom.vcproj", "{C4BEEAF2-1B41-49E5-A496-2386057C18DC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VKGraphic", "VKGraphic\VKGraphic.vcproj", "{6F11C39A-2973-4250-855A-3780E5FE028B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4BEEAF2-1B41-49E5-A496-2386057C18DC} = {C4BEEAF2-1B41-49E5-A496-2386057C18DC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4BEEAF2-1B41-49E5-A496-2386057C18DC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4BEEAF2-1B41-49E5-A496-2386057C18DC}.Debug|Win32.Build.0 = Debug|Win32
+		{C4BEEAF2-1B41-49E5-A496-2386057C18DC}.Release|Win32.ActiveCfg = Release|Win32
+		{C4BEEAF2-1B41-49E5-A496-2386057C18DC}.Release|Win32.Build.0 = Release|Win32
+		{6F11C39A-2973-4250-855A-3780E5FE028B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6F11C39A-2973-4250-855A-3780E5FE028B}.Debug|Win32.Build.0 = Debug|Win32
+		{6F11C39A-2973-4250-855A-3780E5FE028B}.Release|Win32.ActiveCfg = Release|Win32
+		{6F11C39A-2973-4250-855A-3780E5FE028B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
